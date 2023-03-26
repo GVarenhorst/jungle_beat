@@ -15,4 +15,7 @@ class LinkedList
       @tail = new_node
     end
   end
+  def append(data)
+    @head = Node.new(data)
+  end
 end
