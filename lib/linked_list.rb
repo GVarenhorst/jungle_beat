@@ -28,6 +28,12 @@ class LinkedList
       end
       current_node.next_node = Node.new(data)
     end
+
+    def prepend(data)
+      current_node = Node.new(data)
+      current_node.next_node = @head
+      @head = current_node
+    end
   end
 
   def count
@@ -41,7 +47,7 @@ class LinkedList
         count +=1
       end
       count
-    end
+    end 
   end
 
   def to_string
@@ -54,6 +60,5 @@ class LinkedList
       jbeat.join(" ")
   end
 end
-
 
 
