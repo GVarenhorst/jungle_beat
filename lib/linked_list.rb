@@ -84,6 +84,7 @@ class LinkedList
     beats.join(" ")
   end
 
+  
   def includes?(data)
     current_node = @head
     until current_node.data == data || current_node.next_node == nil
