@@ -36,7 +36,7 @@ class LinkedList
     end
   end
 
-  
+
   def count
     if self == nil
       count = 0
@@ -61,16 +61,7 @@ class LinkedList
       jbeat.join(" ")
   end
 
-  # def index_at(value_index)
-  #   current_node = head
-  #   (index - 1).times do
-  #     if current_node.nil?
-  #       current_node = current_node.next_node
-  #     end
-  #   end
-  # end
-
-  def insert(index, data)
+    def insert(index, data)
     current_node = @head 
     (index - 1).times do
     current_node = current_node.next_node
