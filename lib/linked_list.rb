@@ -36,7 +36,6 @@ class LinkedList
     end
   end
 
-
   def count
     if self == nil
       count = 0
