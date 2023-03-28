@@ -35,6 +35,7 @@ class LinkedList
       @head = current_node
     end
   end
+
   
   def count
     if self == nil
